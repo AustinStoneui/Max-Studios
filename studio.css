@@ -1,0 +1,72 @@
+body {
+    color:black;
+    background-color: rgba(16, 31, 247, 0.938);
+}
+
+h1 {
+    color:white;
+}
+
+h4 {
+    color:white;
+}
+
+.navbar {
+    background-color: gray;
+    background-image: linear-gradient(to right, rgba(255, 246, 246, 0.829), rgb(17, 0, 255));
+}
+
+img {
+    width: 200px;
+    height: 400px;
+}
+
+.jumbotron {
+    border: 1px black;
+    margin-top: 30px;
+}
+
+
+.jumbotron .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 800px;
+    border: 1px black;
+    
+}
+ .jumbotron:hover {
+     
+    box-shadow: 10px 10px;
+    transform: scale(1.1);
+    transition: 1.3s;
+ }
+.card {
+    display:inline-block;
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    padding-top:5px;
+    
+}
+.card:hover {
+ box-shadow:10px 10px ;
+ transform: scale(1.06);
+ transition: 1.3s;
+ 
+
+}
+
+#body.card {
+    margin-left:600px;
+    margin-bottom: 30px;
+    width:800px;
+
+}
+
+
+#footer.card-body {
+    margin-left: 550px;
+    margin-bottom: 5px;
+    width: 800px;
+    padding: 25px;
+}
+
